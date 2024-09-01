@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-content-input-span {
+    width: 240px;
+}
+
+.subinput-content-group {
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+
+.subinput-group {
+    display: flex;
+    flex-direction: row;
+}
+
+#edit-container {
+    margin-top: 15px;
+}
+
+#save-changes-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

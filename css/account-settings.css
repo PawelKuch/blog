@@ -1,0 +1,67 @@
+body {
+    background-color: beige;
+}
+
+#container {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-tiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #36454F;
+    border-radius: 20px;
+    height: 400px;
+    width: 250px;
+}
+
+.change-btn {
+    width: 230px;
+    color: white;
+}
+
+#back-btn {
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.subinput-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group-text {
+    width: 250px;
+}
+
+.change-password-span {
+    width:450px;
+}
+
+.confirm-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.account-settings-alert {
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#change-password-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
